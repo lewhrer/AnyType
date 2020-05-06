@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\SoftServe\AnyType\AnyType\AnyType.h(63,15): warning C4244: 'initializing': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\SoftServe\AnyType\AnyType\main.cpp(10): message : see reference to function template instantiation 'T AnyType::toType<int>(void)' being compiled
+          with
+          [
+              T=int
+          ]
+  AnyType.vcxproj -> C:\SoftServe\AnyType\Debug\AnyType.exe

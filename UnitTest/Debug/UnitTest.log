@@ -1,0 +1,24 @@
+﻿  pch.cpp
+  UnitTest.cpp
+C:\SoftServe\AnyType\AnyType\AnyType.h(63,15): warning C4244: 'initializing': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\SoftServe\AnyType\UnitTest\UnitTest.cpp(65): message : see reference to function template instantiation 'T AnyType::toType<int>(void)' being compiled
+          with
+          [
+              T=int
+          ]
+C:\SoftServe\AnyType\AnyType\AnyType.h(63,15): warning C4244: 'initializing': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=char
+          ]
+C:\SoftServe\AnyType\UnitTest\UnitTest.cpp(70): message : see reference to function template instantiation 'T AnyType::toType<char>(void)' being compiled
+          with
+          [
+              T=char
+          ]
+     Creating library C:\SoftServe\AnyType\Debug\UnitTest.lib and object C:\SoftServe\AnyType\Debug\UnitTest.exp
+  UnitTest.vcxproj -> C:\SoftServe\AnyType\Debug\UnitTest.dll
